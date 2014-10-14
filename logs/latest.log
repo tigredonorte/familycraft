@@ -1,0 +1,83 @@
+[13:35:19] [Server thread/INFO]: Starting minecraft server version 1.7.9
+[13:35:19] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[13:35:19] [Server thread/INFO]: Loading properties
+[13:35:19] [Server thread/INFO]: Default game type: SURVIVAL
+[13:35:19] [Server thread/INFO]: Generating keypair
+[13:35:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:35:20] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.9-R0.2-1-ga6e0bfd-b3095jnks (MC: 1.7.9) (Implementing API version 1.7.9-R0.3-SNAPSHOT)
+[13:35:21] [Thread-7/WARN]: Could not get information about this CraftBukkit version; perhaps you are running a custom one?: IOException
+[13:35:22] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.2
+[13:35:22] [Server thread/INFO]: [Essentials] Loading Essentials v2.13.1
+[13:35:22] [Server thread/INFO]: [dynmap] Loading dynmap v1.9.4-991
+[13:35:22] [Server thread/INFO]: [dynmap] Mod Support API available
+[13:35:22] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.13.1
+[13:35:22] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.13.1
+[13:35:22] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.13.1
+[13:35:22] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.13.1
+[13:35:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:35:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:35:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:35:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:35:22] [Server thread/INFO]: Preparing level "FamilyCraft"
+[13:35:22] [Server thread/INFO]: Preparing start region for level 0 (Seed: -204155939)
+[13:35:22] [Thread-7/WARN]: Could not get latest artifact information: IOException
+[13:35:23] [Server thread/INFO]: Preparing spawn area: 13%
+[13:35:23] [Server thread/INFO]: Attempted to place a tile entity (net.minecraft.server.v1_7_R3.TileEntityComparator@4e8b33) at 72,13,93 (AIR) where there was no entity tile!
+[13:35:23] [Server thread/INFO]: Chunk coordinates: 64,80
+[13:35:23] [Server thread/WARN]: java.lang.Exception
+[13:35:23] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R3.Chunk.a(Chunk.java:685)
+[13:35:23] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R3.Chunk.a(Chunk.java:660)
+[13:35:23] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R3.ChunkRegionLoader.loadEntities(ChunkRegionLoader.java:387)
+[13:35:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:37)
+[13:35:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:13)
+[13:35:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R3.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:337)
+[13:35:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R3.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:295)
+[13:35:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R3.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:16)
+[13:35:23] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:116)
+[13:35:23] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:98)
+[13:35:23] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R3.MinecraftServer.g(MinecraftServer.java:317)
+[13:35:23] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R3.MinecraftServer.a(MinecraftServer.java:282)
+[13:35:23] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R3.DedicatedServer.init(DedicatedServer.java:182)
+[13:35:23] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R3.MinecraftServer.run(MinecraftServer.java:436)
+[13:35:23] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R3.ThreadServerApplication.run(SourceFile:628)
+[13:35:24] [Server thread/INFO]: Preparing spawn area: 62%
+[13:35:25] [Server thread/INFO]: Preparing start region for level 1 (Seed: -204155939)
+[13:35:26] [Server thread/INFO]: Preparing spawn area: 55%
+[13:35:27] [Server thread/INFO]: Preparing start region for level 2 (Seed: -204155939)
+[13:35:27] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.2
+[13:35:27] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:35:28] [Server thread/INFO]: [Essentials] Enabling Essentials v2.13.1
+[13:35:29] [Server thread/INFO]: Essentials: Using config file enhanced permissions.
+[13:35:29] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[13:35:29] [Server thread/INFO]: [dynmap] Enabling dynmap v1.9.4-991
+[13:35:29] [Server thread/INFO]: [dynmap] Added 38 custom biome mappings
+[13:35:29] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
+[13:35:29] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
+[13:35:29] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[13:35:31] [Server thread/INFO]: [dynmap] Loaded 22 shaders.
+[13:35:32] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[13:35:32] [Server thread/INFO]: [dynmap] Loaded 12 lightings.
+[13:35:32] [Server thread/INFO]: [dynmap] version 1.9.4-991 is enabled - core version 1.9.4-1940
+[13:35:32] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'FamilyCraft'.
+[13:35:33] [Server thread/INFO]: [dynmap] Loaded 104 pending tile renders for world 'FamilyCraft'
+[13:35:33] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'FamilyCraft_nether'.
+[13:35:33] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'FamilyCraft_the_end'.
+[13:35:33] [Server thread/INFO]: [dynmap] Enabled
+[13:35:33] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.13.1
+[13:35:33] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.13.1
+[13:35:33] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.13.1
+[13:35:33] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.13.1
+[13:35:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:35:37] [Server thread/INFO]: Done (14.840s)! For help, type "help" or "?"
+[13:35:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8046ms behind, skipping 160 tick(s)
+[13:36:03] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[13:36:08] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7902ms behind, skipping 158 tick(s)
+[13:36:17] [Server thread/INFO]: thom[/177.182.194.1:56023] logged in with entity id 356 at ([FamilyCraft] 99.02863208316953, 11.0, 64.68630117288556)
+[13:36:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7292ms behind, skipping 145 tick(s)
+[13:36:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3800ms behind, skipping 76 tick(s)
+[13:36:42] [Server thread/INFO]: [WorldEdit] Using external NmsBlock for this version: CBXNmsBlock_175_5xcompat
+[13:36:49] [Server thread/INFO]: thom lost connection: Disconnected
+[13:36:50] [Server thread/INFO]: thom left the game.
+[13:37:32] [Server thread/INFO]: thom[/177.182.194.1:56056] logged in with entity id 1105 at ([FamilyCraft] 78.30785204851838, 11.0, 64.69794249604456)
+[14:05:21] [Server thread/INFO]: thom lost connection: Disconnected
+[14:05:21] [Server thread/INFO]: thom left the game.

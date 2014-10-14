@@ -1,0 +1,20 @@
+uuid: 0f920f4d-6f7f-3b90-9830-1f8e227342b5
+timestamps:
+  login: 1412113767198
+  logout: 1412120049902
+  lastteleport: 1412119815354
+ipAddress: 191.254.175.75
+lastlocation:
+  world: FamilyCraft
+  x: -82.69999998807907
+  y: 14.0
+  z: -31.533946344214478
+  yaw: 66.44946
+  pitch: 16.95
+logoutlocation:
+  world: FamilyCraft
+  x: 61.32376690977253
+  y: 11.0
+  z: -83.69999998807907
+  yaw: 290.8501
+  pitch: 51.300022
